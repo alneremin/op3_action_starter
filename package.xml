@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>op3_action_starter</name>
+  <version>1.0.0</version>
+  <description>
+    The op3_action_starter package provides starting of motion using actions
+  </description>
+  <license>Apache 2.0</license>
+  <author>Alexander Eryomin</author>
+  <maintainer email="aneremin@it.kfu.ru">Alexander Eryomin</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>  
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>robotis_controller</depend>
+  <depend>robotis_device</depend>
+  <depend>op3_action_module</depend>
+  <depend>op3_base_module</depend>
+  <exec_depend>op3_manager</exec_depend>
+</package>
